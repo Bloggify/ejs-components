@@ -17,17 +17,17 @@
 
 
 
-# bloggify-ajs-components
+# bloggify-ejs-components
 
- [![Version](https://img.shields.io/npm/v/bloggify-ajs-components.svg)](https://www.npmjs.com/package/bloggify-ajs-components) [![Downloads](https://img.shields.io/npm/dt/bloggify-ajs-components.svg)](https://www.npmjs.com/package/bloggify-ajs-components)
-
-
+ [![Version](https://img.shields.io/npm/v/bloggify-ejs-components.svg)](https://www.npmjs.com/package/bloggify-ejs-components) [![Downloads](https://img.shields.io/npm/dt/bloggify-ejs-components.svg)](https://www.npmjs.com/package/bloggify-ejs-components)
 
 
 
 
 
-> AJS Components for Bloggify
+
+
+> EJS Components for Bloggify
 
 
 
@@ -49,10 +49,10 @@
 
 ```sh
 # Using npm
-npm install --save bloggify-ajs-components
+npm install --save bloggify-ejs-components
 
 # Using yarn
-yarn add bloggify-ajs-components
+yarn add bloggify-ejs-components
 ```
 
 
@@ -75,15 +75,21 @@ yarn add bloggify-ajs-components
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <% mod("bloggify-ajs-components/lib/head") %>
-        <% mod("bloggify-ajs-components/lib/og-social") %>
+        <%- include("bloggify-ajs-components/lib/head") %>
+        <%- include("bloggify-ajs-components/lib/og-social") %>
     </head>
     <body>
         ... content ...
-        <% mod("bloggify-ajs-components/lib/footer") %>
+        <%- include("bloggify-ajs-components/lib/footer") %>
     </body>
 </html>
 ```
+
+
+
+
+
+
 
 
 
@@ -103,8 +109,6 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
-
-
 
 
 
