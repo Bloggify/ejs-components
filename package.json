@@ -1,39 +1,28 @@
 {
-  "name": "bloggify-ajs-components",
-  "description": "AJS Components for Bloggify",
+  "name": "bloggify-ejs-components",
+  "description": "EJS Components for Bloggify",
   "keywords": [
     "bloggify",
-    "ajs",
+    "ejs",
     "components",
     "for"
   ],
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
-  "homepage": "https://github.com/Bloggify/ajs-components#readme",
+  "homepage": "https://github.com/Bloggify/ejs-components#readme",
   "files": [
-    "bin/",
-    "app/",
     "lib/",
-    "dist/",
-    "src/",
-    "scripts/",
-    "resources/",
-    "menu/",
-    "cli.js",
-    "index.js",
-    "bloggify.js",
-    "bloggify.json"
+    "footer.ejs",
+    "head.ejs",
+    "og-social.ejs"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Bloggify/ajs-components.git"
+    "url": "git+ssh://git@github.com/Bloggify/ejs-components.git"
   },
   "bugs": {
-    "url": "https://github.com/Bloggify/ajs-components/issues"
+    "url": "https://github.com/Bloggify/ejs-components/issues"
   }
 }
