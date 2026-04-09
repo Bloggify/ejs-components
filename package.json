@@ -8,7 +8,7 @@
     "for"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "homepage": "https://github.com/Bloggify/ejs-components#readme",
